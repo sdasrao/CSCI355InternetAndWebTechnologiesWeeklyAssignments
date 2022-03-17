@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+    <head>
+                <title></title>
+                <style>
+                 {
+                                font-family: serif;
+                        }
+
+
+                        img {
+                                width: 100%;
+                        }
+
+
+                        .NameDiv {
+                                background: tan;
+                                text-align: center;
+                font-family: serif;
+                font-size: 16px;
+                width: 100%;
+                        }
+                        .Title {
+                font-family: serif;
+                                font-size: 28px;
+                        }
+            .wrapper {
+                                max-width: 1000px;
+                                margin-left: auto;
+                                margin-right: auto;
+                                padding: 20px;
+                        }
+            
+                        
+                        .price{
+                                font-size: 16px;
+                        }
+                        
+                        .review{
+                                width: 40%;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                        }
+            
+                        .description{
+                                width: 100%;
+                                padding-left: 10px;
+                                font-size: 20px;
+                        }
+            .promotion {
+                                width: 80%;
+                                margin: 40px;
+                background-color: orange;
+                font-size: 16px;
+                                text-align: center;
+                                border-color: black;
+                                border-width: 4px;
+                                border-style: solid;
+                        }
+                        
+                        .relatedProductsDiv{
+                                margin-top: 10vmin;
+                                width: 100%;
+                                font-size: 16px;
+                        }
+                        
+                        .RelatedProductsImageWrapper{
+                                width: 50%;
+                height: 320px;
+                                margin: 2vmin 25%;
+                border-color: chocolate;
+                                border-width: 4px;
+                                border-style: solid;
+                                position: relative;
+                                overflow: hidden;
+                        }
+                        
+                        .relatedProducts{
+                                display: none;
+                                width: 100%;
+                                text-align: center;
+                                position: absolute;
+                                top: 45%;
+                                font-size: 3vmin;
+                                line-height: 10%;
+                                color: white;
+                        }
+                
+                        .RelatedProductsImageWrapper:hover img{
+                                opacity: 0.2;
+                                transition: 0.5s;
+                                transform: scale(1.05);
+                        }
+                        
+                        .RelatedProductsImageWrapper:hover .relatedProducts{
+                                display: block;
+                                transition: 0.5s;
+                        }
+            
+            .RelatedProductsImageWrapper:hover{
+                                background-color: rgba(72, 72, 74,74);
+                            cursor: grab;
+                        }
+                        
+            
+                        /* CSS FOR IPAD DEVICES */
+            /* FLOAT SET TI LEFT */
+                        @media (min-width: 768px){
+                                .product-name{
+                                        float: right;
+                                        text-align: left;
+                                        width: 40%;
+                                }
+                                
+                                .productInfo{
+                                        width: 49%;
+                                }
+                                
+                                .price{
+                                        font-size: 20px;
+                                }
+                                
+                                .description{
+                                        font-size: 1.8vmin;
+                                        padding-left: 3vmin;
+                                }
+                                
+                                .description li{
+                                        margin: 0.5vmin;
+                                }
+                                
+                                .relatedProductsDiv{
+                                        overflow: hidden;
+                                        margin-top: 75vmin;
+                                }
+                                
+                                .RelatedProductsImageWrapper{
+                                        width: 40%;
+                    height:320px;
+                                        margin: 1%;
+                                        float: left;
+                                }
+                .floatLeft{
+                                        float: left;
+                                }
+                                
+                                .floatRight{
+                                        float: right;
+                                }
+                        }
+            
+                        /* CSS FOR DESKTOP DEVICES */
+            /* NO FLOAT FOR DESKTOP */
+                        @media (min-width: 992px){
+                                .product-name{
+                                        font-size: 1.5vmin;
+                                        line-height: 5vmin;
+                                }
+                                
+                                .price{
+                                        font-size: 1.5vmin;
+                                        line-height: 2vmin;
+                                }
+                                
+                                .promotion{
+                                        font-size: 1.3vmin;
+                                }
+                                
+                                .description{
+                                        font-size: 18px;
+                                }
+                                
+                                .relatedProductsDiv{
+                                        margin-top: 58vmin;
+                                }
+                                
+                                .RelatedProductsImageWrapper{
+                                        width: 20%;
+                    height:200px;
+                                }
+                                
+                                .relatedProducts{
+                                        font-size: 12px;
+                                }
+                        }
+                        
+                        
+                </style>
+        
+        <body>
+                <div class="NameDiv">
+                        <h1 class="Title">Swarna's Home Decor Store</h1>
+                </div>
+        
+                <div class="wrapper">
+                        <section class="Product">
+                                <h1 class="ProductName">Solid Quilt in Turmeric</h1>
+                                
+                                <div class="productInfo floatLeft">
+<img class="MainProduct" 
+src="https://cdn.shopify.com/s/files/1/1398/8653/products/dabito_1024x1024.jpg?v=1613150290">
+<div class="promotion"> Use promo code "DecorateWild" to get 20% off!</div>
+                                
+                </div>
+                                
+                                <div class="productInfo floatRight">
+                                        <h3 class="price">Price: $160.00 </h3>
+                                        <div class="review">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpLDdymniHNPKg8KzIAYPj_mEIgwxS6X-lzQ&usqp=CAU" alt="reviews">
+                                        </div>
+                                        <ul class="description">
+<li>This Turmeric bedding makes us dream of a cozy, warm cocoon filled with golden, sunshiney hues. Layer in other bright, happy colors and create your own lil' happy place. In the springtime, mix your quilt with brighter hues, bold shams & pillows, and lightweight throws. It easily transitions to the fall months when paired with autumnal, earthy tones & cozier knit throws, too! The quilt and shams are sold separately, so you can mix & match with the colors of your choosing!</li>
+<li> Always down for a fresh pattern-mixing moment, but let's ground the space with solid hues, too. Colorblock with solids or layer with patterns if that's more your vibe.These luxurious, comfy, cotton quilts in some of our favorite shades. </li>
+<li>Adorned with our favorite accessory, the tassel, this quilt is perfect for layering!</li>
+<li>Lions sleep hard and live hard – with this bedding, you will find your inner lion and cozy up with these colorful quilts! </li>
+                                        </ul>
+                                        </ul>
+                                </div>
+</section>
+<section class="relatedProductsDiv">
+<h1 class="section-title">Related Products to Get The Complete Look</h1>
+<div class="RelatedProductsImageWrapper">
+<div class="relatedProducts">Juju Hat Wall Decor</div>
+                           <img src="https://cdn.shopify.com/s/files/1/0303/3533/6581/products/flecked_yellow_juju_hat_design_my_world.jpg?v=1579197299" alt="Juju Hat Wall Decor">
+                    
+                                </div>
+                                <div class="RelatedProductsImageWrapper">
+                <div class="relatedProducts">Woven Basket Wall Hangings</div>
+                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202107/0127/img80o.jpg" alt="Woven Basket Wall Hanging" >
+                                </div>
+                                <div class="RelatedProductsImageWrapper">
+                <div class="relatedProducts">Antique Woven Table Lamp</div>
+                          <img src="https://target.scene7.com/is/image/Target/GUEST_ceaf1b66-ac44-4125-a25d-41b2c7be4621?fmt=webp&wid=1400&qlt=80" alt="Antique Woven Table Lamp">
+                                </div>
+                                <div class="RelatedProductsImageWrapper">
+        <div class="relatedProducts">Indoor Decorative Wicker Planter</div>
+                          <img src="https://i.etsystatic.com/16327957/r/il/7affb1/1856206352/il_1140xN.1856206352_pgz5.jpg" alt="Indoor Decorative Wicker Planter">
+                                </div>
+                        </section>
+                </div>
+
+
+        
+
+
+</body>
+</head>
